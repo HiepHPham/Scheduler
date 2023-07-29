@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LogInForm">
+   <Label fx:id="UserLoginlabel" layoutX="37.0" layoutY="34.0" prefHeight="50.0" prefWidth="339.0" text="User Login">
+      <font>
+         <Font size="24.0" />
+      </font>
+   </Label>
+   <TextField fx:id="UserIDtxt" layoutX="300.0" layoutY="207.0" prefHeight="50.0" prefWidth="200.0">
+      <padding>
+         <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+      </padding>
+      <opaqueInsets>
+         <Insets />
+      </opaqueInsets>
+   </TextField>
+   <PasswordField fx:id="Passwordtxt" layoutX="300.0" layoutY="309.0" prefHeight="50.0" prefWidth="200.0">
+      <padding>
+         <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+      </padding>
+      <opaqueInsets>
+         <Insets />
+      </opaqueInsets>
+   </PasswordField>
+   <Button fx:id="Signinbutton" layoutX="301.0" layoutY="366.0" mnemonicParsing="false" onAction="#Login" prefHeight="30.0" prefWidth="200.0" text="Sign in">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Button>
+   <Label fx:id="Zonelabel" layoutX="300.0" layoutY="408.0" text="Zone" />
+   <Label fx:id="Languagelabel" layoutX="300.0" layoutY="432.0" text="Language" />
+   <Label fx:id="UserIDlabel" layoutX="301.0" layoutY="173.0" text="User ID:">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Label>
+   <Label fx:id="Passwordlabel" layoutX="301.0" layoutY="273.0" text="Password:">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Label>
+</AnchorPane>
